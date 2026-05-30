@@ -527,9 +527,9 @@ footer ul li a:hover {
     }
 
     /* =================== POPULAR COURSES ================= */
-    .course {
-        margin-top: 10rem;
-    }
+     .course {
+         margin-top: 0; 
+    } 
 
     .courses-container {
         grid-template-columns: 1fr 1fr;
@@ -554,9 +554,6 @@ footer ul li a:hover {
 /* =================== MEDIA QUERIES (PHONES) ================= */
 
 @media screen and (max-width:600px) {
-    .courses {
-        margin: 0;
-    }
     .container {
         width: var(--container-width-sm);
     }
